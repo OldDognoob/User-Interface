@@ -64,3 +64,71 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+html, body, section {
+    height: 100%;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 12px;
+	line-height: 1.2;
+	
+}
+
+img{
+	border-radius: 50%;
+	margin: right;
+	border-style: none;
+}	
+  h1 , h2 , p {
+	font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+	margin-bottom: 15px;
+	text-align: center;
+}	
+ .introduction{
+	 display: inline-block;
+	 width: 40%;
+ }
+.navigation {
+	background-color: white;
+}
+
+footer {
+	text-align: left;
+	font: black;
+	margin: auto;
+	padding: 4px;
+	
+}
+
+ ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: inline-block;
+   background-color: white;
+ }
+
+ li{
+	 float: center;
+ }
+
+ li a {
+	 display: block;
+	 color: white;
+	 text-align: center;
+	 padding: 10px;
+	 margin: 10px;
+	 text-decoration: none;
+ }
+
+ p {
+	 text-color: black;
+	 text.align: center;
+	 padding: 10px;
+	 line-height: 1.4;
+ }
+
+ header img {
+	 width: 600px;
+	 margin: 0;
+ }
