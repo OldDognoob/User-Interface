@@ -3,8 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+html, body, div, span, applet, object, iframe,h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -19,7 +18,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 50%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -31,9 +30,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+
 blockquote, q {
 	quotes: none;
 }
@@ -44,17 +41,17 @@ q:before, q:after {
 }
 table {
 	border-collapse: collapse;
-	border-spacing: 0;
+	border-spacing: 15px;
 }
 
 /* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
-}
+
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+   
+	font-family: 'Titillium Web', sans-serif;
+	box-sizing: content-box;
+	flex-flow: column;
 }
 
 h1, h2, h3, h4, h5 {
@@ -63,72 +60,77 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
 
-html, body, section {
-    height: 100%;
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 12px;
-	line-height: 1.2;
-	
+body{
+	width:60%;
+	margin: 0 auto;
+	height:10px;
+	width: 900px;
+	box-sizing: border-box;
 }
 
-img{
-	border-radius: 50%;
-	margin: right;
-	border-style: none;
-}	
-  h1 , h2 , p {
-	font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-	margin-bottom: 15px;
-	text-align: center;
-}	
- .introduction{
-	 display: inline-block;
-	 width: 40%;
- }
 .navigation {
-	background-color: white;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
 }
 
-footer {
-	text-align: left;
-	font: black;
-	margin: auto;
-	padding: 4px;
-	
+
+nav{
+	width: 50%;
+	text-decoration: none;
+	color: grey;
 }
 
- ul {
-   list-style: none;
-   margin: 0;
-   padding: 0;
-   display: inline-block;
-   background-color: white;
- }
+a {
+	text-decoration: none;
+	  color: gray;
+	  margin-left: 20px;  
+	  display: inline-flex;
+	  justify-content: space-between;
+  }
 
- li{
-	 float: center;
- }
+  header {
+	  display: flex;
+	  justify-content: space-between;
+  }
 
- li a {
-	 display: block;
-	 color: white;
-	 text-align: center;
-	 padding: 10px;
-	 margin: 10px;
-	 text-decoration: none;
- }
+  .inovation {
+	width:40%;
+	text-align: center;
 
- p {
-	 text-color: black;
-	 text.align: center;
-	 padding: 10px;
-	 line-height: 1.4;
- }
+  }
+.inovation > h1{
+	display: flex;
+	flex-direction: column;
+}
 
- header img {
-	 width: 600px;
-	 margin: 0;
- }
+  .header-img {
+	  width:40%;
+  }
+
+.middle-content {
+	display: flex;
+	flex-direction: column;
+}
+
+.Content1 {
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.Content1 > div {
+	width: 48%;
+}
+
+.Content2 {
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.Content2 > div {
+	width:30%;
+}
