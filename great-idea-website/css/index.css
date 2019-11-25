@@ -66,49 +66,42 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 
-
+.container{
+	width: 600px;
+	margin: 0 auto;
+}
 *{
 	box-sizing: border-box;
   }
+
   html {
 	height: 100%;
 	font-family: "Titillium Web", sans-serif;
   }
-  .div {
-	text-align: justify;
-	display: inline block;
-  }
-  .navigation {
-	background: white;
-	text-align: center;
-	text-decoration: none;
-  }
-  .navigation a {
-	font-family: "Titillium Web", sans-serif;
+ 
+  header nav a{
+	  display: inline-block;
+	  font-family: "Titillium Web", sans-serif;
 	text-decoration: none;
 	background-color: white;
 	font-color: black;
 	text-align: center;
   }
-  .navigation a:hover{
-	background-color: white;
-	color: lightblue;
+
+  img .logo {
+	display: inline-block;
   }
-  a: hover {
-	color: white;
-	}
+ 
+ 
   li a {
-	display: inline block;
+	display: inline-block;
 	color: white;
 	text-align: center;
 	padding: 10px;
 	margin: 10px;
 	text-decoration: none;
   }
-  img log {
-	border-radius: 50%;
-	float: right;
-  }
+  
   h1 {
 	text-align: left;
 	font-color: black;
@@ -119,30 +112,38 @@ h1, h2, h3, h4, h5 {
   }
   button {
 	text-align: center;
-	display: inline block;
-	background-color: royalblue;
+	display: inline-block;
 	color: white;
-	float: left;
+	
   }
   section Introduction {
 	font-family: "Lucid Console", sans-serif;
 	font-size: 16px;
-	height: 100%;
-	display: inline block;
+	display: inline-block;
 	width: calc(50%-40px);
+	font-size:45px;
+	text-decoration: none;
   }
   .highlight span {
 	color: black;
   }
-  section p ltr {
-	direction: ltr;
-  }
   section main-content {
-	display: inline block;
+	display: inline-block;
 	width: 50px;
 	height: 20px;
 	padding: 30px;
 	border: 25px;
 	background-color: white;
+	color: black;
+  }
+  footer{
+	font-family:
+	font-size:12px;
+
+  }
+
+  .copyright{
+	  text-align: center;
+	  margin: 0 0 0 50px;
   }
   
