@@ -47,90 +47,117 @@ table {
 /* Set every element's box-sizing to border-box */
 
 
-html, body {
-   
-	font-family: 'Titillium Web', sans-serif;
-	box-sizing: content-box;
-	flex-flow: column;
-}
-
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
-}
-
-
-body{
-	width:60%;
-	margin: 0 auto;
-	height:10px;
-	width: 900px;
-	box-sizing: border-box;
-}
-
-.navigation {
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	padding: 10px;
-}
-
-
-nav{
-	width: 50%;
-	text-decoration: none;
-	color: grey;
-}
-
-a {
-	text-decoration: none;
-	  color: gray;
-	  margin-left: 20px;  
-	  display: inline-flex;
-	  justify-content: space-between;
-  }
-
-  header {
-	  display: flex;
-	  justify-content: space-between;
-  }
-
-  .inovation {
-	width:40%;
+.container {
 	text-align: center;
-
-  }
-.inovation > h1{
-	display: flex;
-	flex-direction: column;
+	width: 1100px;
+	margin: 0 auto;
 }
 
-  .header-img {
-	  width:40%;
-  }
-
-.middle-content {
-	display: flex;
-	flex-direction: column;
+header{
+	/*width: 90%;*/
+	height: 80px;
+	width: 90%;
+	padding-top: 30px;
 }
 
-.Content1 {
-	padding: 10px;
-	display: flex;
-	justify-content: space-between;
+nav {
+	display: inline-block;
+	margin: 0px 20px;
+	width: 75%;
 }
 
-.Content1 > div {
-	width: 48%;
+nav a {
+	text-decoration: none;
+	color: rgb(173, 172, 173);
+	padding: 0px 30px;
+	
 }
 
-.Content2 {
-	padding: 10px;
-	display: flex;
-	justify-content: space-between;
+nav a:hover {
+	color: aqua;
+}
+.logo {
+	display: inline-block;
+	width: 200px;
 }
 
-.Content2 > div {
-	width:30%;
+.top-content {
+	border-bottom: 2px dashed black;
+	margin: 40px;
+	margin: 100px 40px 40px 40px;
+	height: 500px;
+	display: block;
+	text-align: center;
+}
+
+.top-content-text, .top-content img {
+	display: inline-block;
+	margin: 0px 50px;
+	text-align:center;
+}
+
+.top-content-text {
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	font-size: 70px;
+	padding: 0px 20px;
+}
+
+.top-content-text a{
+	text-align: center;
+	text-decoration: none;
+	color: rgb(173, 172, 173);
+	border: 2px solid rgb(173, 172, 173);
+	padding: 2px 40px; 
+}
+.top-content-text a:hover {
+	background-color: rgb(49, 154, 254);
+	transition: background 0.5s ease-in;
+	color: yellowgreen;
+}
+
+.section-content {
+	display: block;
+}
+
+.features, .about {
+	display: inline-block;
+	margin: 20px 20px 40px 20px;
+	width: 45%;
+}
+
+h2 {
+	font-size: 30px;
+	text-align: left;
+}
+
+p {
+	line-height: 1.4;
+	font-size: 18px;
+	text-align: left;
+}
+
+.middle-img {
+	width: 95%;
+	margin: 0 auto;
+}
+.third-content {
+	border-bottom: 2px dashed black;
+}
+
+.services, .product, .vision {
+	display: inline-block;
+	width: 30%;
+	margin: 30px 15px;
+}
+
+.bottom-content {
+	margin: 40px ;
+}
+
+footer {
+	padding: 100px ;
 }
